@@ -48,7 +48,6 @@ public class ModEvents {
                 world.getDifficulty() == Difficulty.PEACEFUL) {
             return;
         }
-        .
         // Create a custom raid with a default bad omen level
         Raid zombieRaid = Raid.create(serverLevel, 1, center);
 
